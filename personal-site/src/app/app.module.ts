@@ -53,7 +53,10 @@ const appRoutes: Routes = [
     MatListModule,
     MatExpansionModule,
     BrowserModule,
-    [BrowserAnimationsModule]
+    [BrowserAnimationsModule],
+    RouterModule.forRoot(
+      appRoutes, { enableTracing: true }
+    )
   ],
   providers: [],
   bootstrap: [AppComponent]
