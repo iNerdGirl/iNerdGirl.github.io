@@ -11,6 +11,8 @@ import {
   MatToolbarModule,
   MatListModule,
   MatExpansionModule,
+  MatCardModule,
+  
 } from '@angular/material';
 
 import { AppComponent } from './app.component';
@@ -34,7 +36,8 @@ const appRoutes: Routes = [
     MatSnackBarModule,
     MatToolbarModule,
     MatListModule,
-    MatExpansionModule,  
+    MatExpansionModule,
+    MatCardModule,
   ],
   declarations: [
     AppComponent,
@@ -52,6 +55,7 @@ const appRoutes: Routes = [
     MatToolbarModule,
     MatListModule,
     MatExpansionModule,
+    MatCardModule,
     BrowserModule,
     [BrowserAnimationsModule],
     RouterModule.forRoot(

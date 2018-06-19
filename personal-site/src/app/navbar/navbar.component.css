@@ -9,7 +9,7 @@
 }
 
 .is-mobile .toolbar {
- position: fixed;
+ position: static;
  z-index: 2;
 }
 
